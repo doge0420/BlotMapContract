@@ -45,7 +45,7 @@ contract BlotMap is Ownable, ERC721{
 
     // !! don't forget to change !! hehe
     constructor() ERC721("BlotMapCabinet", "BMC") {
-        setHiddenURI("ipfs://QmPpWsJh4XVUATTuXNpyqjrJDpBtJijyQ9ohNifzScMUFJ/1.json");
+        setHiddenURI("");
         whitelistAddAddress(0x1f7D475723543Ba5715D7AD33F5FD2304e006847);
         whitelistAddAddress(0x125f2788fa587DF002150f0E773Bb108eA276059);
     }
